@@ -35,8 +35,16 @@ def multiplicacion():
 result= multiplicacion()
 print(result)
 
+#-------------arrays----------------------
+
+Limite = int(input("Escriba cuantos nombres deseea almacenar por favor "))
+ListaNombres = [Limite]
+for i in range (Limite):
+    Almacenador = str(input(f"ingrese el nombre {i+1}: ")) #str es para identificar elemento como caracter(texto)
+    ListaNombres.append(Almacenador)
+print(ListaNombres)
  
-#-----Datos primitivos-----
+#-----Datos primitivos-------------------
 #1. String
 Texto =  " CAMPUS " 
 print ( Texto)
